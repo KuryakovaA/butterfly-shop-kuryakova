@@ -1,0 +1,56 @@
+.contacts {
+    padding-top: 240px;
+}
+
+.contacts-inner {
+    @include container;
+}
+
+.contacts-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    margin: 0;
+    font-size: 64px;
+    line-height: 87px;
+    font-weight: 400;
+}
+
+
+.contacts-list {
+    padding-left: 0;
+    
+}
+
+.contacts-item {
+    
+    margin-top: 20px;
+    font-family: $font;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: normal;
+    list-style: none;
+}
+
+.contacts-content {
+
+    display: none;
+    padding-left: 76px;
+
+    &.active {
+    display: block;
+    }
+}
+
+.map {
+    padding-right: 0;
+    padding-bottom: 130px;
+    padding-top: 40px;
+    padding-left: 145px;
+}
+
+.contacts-content-wrap {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+.order {
+    background-color: rgba($color-dark, .1);
+}
+
+.order-wrap {
+   
+    text-align: center;
+}
+.order-inner {
+    @include container;
+}
+
+
+.order-title {
+    padding-top: 130px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+    color: $color-dark;
+}
+
+.order-text {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: $color-dark;
+    padding-bottom: 90px;
+    margin: 0;
+}
+
+
+

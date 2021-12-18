@@ -1,0 +1,30 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 40px;
+    list-style: none;
+  }
+
+
+  .filter-item {
+    margin-left: 50px;
+    
+  
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .filter-link {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-dark;
+    text-decoration: none;
+  
+    &.active {
+      color: $color-accent;
+    }
+  }

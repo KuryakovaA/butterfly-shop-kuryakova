@@ -1,0 +1,48 @@
+.footer {
+    background-color: $color-dark
+}
+
+.footer-wrap {
+    @include container;
+    display: flex;
+    align-content: center;
+    
+}
+
+.footer-logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 57px;
+    margin-right: auto;
+    color: $color-light;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.phone {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: $color-light;
+    display: flex;
+    align-items: center;
+    padding: 41px 0;
+    margin: 0;
+}
+
+.icons-list {
+    color: $color-light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.icon-item {
+    
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}

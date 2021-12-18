@@ -1,0 +1,12 @@
+.faq-inner {
+    @include container;
+}
+
+.faq-title {
+    padding-top: 220px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 87px;
+    font-weight: normal;
+    color: $color-dark;
+}

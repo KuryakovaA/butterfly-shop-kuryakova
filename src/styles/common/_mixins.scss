@@ -1,0 +1,8 @@
+
+@mixin container($width: 1278px) {
+    max-width: $width + $indent-gap;
+    margin: 0 auto;
+    padding-left: $indent-gap-half;
+    padding-right: $indent-gap-half;
+    border: 1px solid red;
+  }
