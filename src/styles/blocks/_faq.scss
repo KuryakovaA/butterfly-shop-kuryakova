@@ -1,9 +1,14 @@
+.faq {
+    padding-bottom: 130px;
+}
+
 .faq-inner {
     @include container;
 }
 
 .faq-title {
     padding-top: 220px;
+    margin-bottom: 80px;
     text-align: center;
     font-size: 64px;
     line-height: 87px;

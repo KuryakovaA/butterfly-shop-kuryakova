@@ -45,4 +45,26 @@ $('.filter-link').on('click', function (e) {
 
 });
 
- 
+ //Аккордеон
+ let prevIndex;
+ $('.accordeon-question').on('click', function () {
+   const currentIndex = $(this).index('.accordeon-question');
+
+   if (prevIndex === currentIndex) {
+     $(this).next().slideToggle();
+     return;
+   }
+
+   $('.accordeon-answer').slideUp();
+   $(this).next().slideDown();
+
+   prevIndex = currentIndex;
+ });
+
+ //Отзывы
+
+ if ($('.slider').length) {
+  $('.slider').slick({
+    dots: true
+  });
+}

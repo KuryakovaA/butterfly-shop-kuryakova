@@ -1,0 +1,40 @@
+.accordeon {
+    border: 1px solid rgba(255, 45, 45, 0.2);
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.accordeon-question {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: #fff;
+    font-family: $font;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: $color-dark;
+    cursor: pointer;
+}
+
+.accordeon-answer {
+    display: none;
+    padding: 0 73px 30px 30px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+
+.icon-plus-btn {
+    display: inline-block;
+}
+
+
+
